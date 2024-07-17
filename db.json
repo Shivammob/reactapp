@@ -1,0 +1,56 @@
+{
+    "category": [
+        {
+            "id": 0,
+            "name": "Jaegure-lecoulture",
+            "desc": "Jaegure-lecoulture master tourbillion 41mm",
+            "img1": "product_img.jpg",
+            "img2": "watch1.webp",
+            "price": 2500000,
+            "off": "20",
+            "size": "41-42",
+            "oldprice": "5,78,000",
+            "rating": "4.3",
+            "color": "#38516c"
+        },
+        {
+            "id": 1,
+            "name": "Apple",
+            "desc": "Apple tourbillion 61mm",
+            "img1": "apple.jpg",
+            "img2": "apple1.jpg",
+            "price": 6700000,
+            "off": "10",
+            "size": "17-19",
+            "oldprice": "77,00,000",
+            "rating": "4.7",
+            "color" : "#c42d36"
+        },
+        {
+            "id": 2,
+            "name": "Hugo Boss",
+            "desc": "Hugo Boss master tourbillion 11mm",
+            "img1": "new_watch.jpg",
+            "img2": "armani.jpg",
+            "price": 1500000,
+            "off": "40",
+            "size": "<17",
+            "oldprice": "23,34,000",
+            "rating": "4",
+            "color": "#4ae45e"
+        },
+        {
+            "id": 3,
+            "name": "Armani Exchange",
+            "desc": "Armani Exchange tourbillion 61mm",
+            "img1": "armani.jpg",
+            "img2": "watch1.webp",
+            "price": 4500000,
+            "off": "5",
+            "size": "61-62",
+            "oldprice": "47,00,000",
+            "rating": "3",
+            "color": "#4d0202"
+        }
+    ]
+  }

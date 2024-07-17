@@ -1,0 +1,42 @@
+.sidebar {
+    width: 28%;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+    .watchcount {
+        color: $color9;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .case-size {
+        li {
+            display: inline-flex;
+            align-items: center;
+            width: 100px;
+            padding: 8px;
+            background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23D4D4D4FF' stroke-width='2' stroke-dasharray='5' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+            @media only screen and (min-width: 768px) and (max-width: 991px) {
+                width: 100%;
+            }
+            label {
+                color: $color3;
+                font-size: 13px;
+            }
+            
+            input.form-check-input {
+                border: 1px solid $color10;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+
+.color-palette li {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+

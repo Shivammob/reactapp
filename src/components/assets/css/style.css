@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #26394D;
+  overflow-x: hidden;
+  transition: opacity 0.5s 0.3s ease-in-out;
+}
+
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+a:hover,
+li:hover {
+  text-decoration: none;
+}
+
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+  outline: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: "Rubik", sans-serif
+}
+
+h2 {
+    color: #1A2634;
+    font-size: 24px;
+}
+
+
+.blade {
+  background-image: url(../images/bg-img.jpg);
+  background-size: 100%;
+  background-position: left;
+  padding: 40px 0;
+}
+
+.blade-section-left {
+  background: #EEEEEEB2;
+  padding: 28px 24px;
+  border-radius: 20px;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.text-blue {
+  color: #1A2634;
+}
+
+@media only screen and (max-width: 991px) {
+  .blade {
+    background-image: unset;
+    background-color: #CAD8ED;
+  }
+}
